@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left > img {
+  width: 15rem;
+}
+
+.left > ul {
+  display: flex;
+  /* border: 1px solid gray; */
+  width: 30rem;
+  justify-content: space-evenly;
+}
+
+.right > ul {
+  display: flex;
+  height: 100%;
+  /* border: 1px solid gainsboro; */
+  width: 45rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul > li:hover {
+  color: green;
+  cursor: pointer;
+}
