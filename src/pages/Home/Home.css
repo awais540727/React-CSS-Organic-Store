@@ -6,6 +6,14 @@
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  position: relative;
+}
+.section1 > img {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  width: 35rem;
+  opacity: 0.3;
 }
 .section1 > .left > img {
   width: 45vw;
@@ -36,4 +44,133 @@ button {
   border-radius: 0.8rem;
   font-size: 1.5rem;
   border: none;
+}
+
+/* Shipping */
+
+.shipping {
+  display: flex;
+  background-color: #111111;
+  width: 100%;
+  height: 22rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  /* flex-wrap: wrap; */
+}
+
+.sh {
+  width: 30rem;
+  height: 60%;
+  background-color: #303030;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.up {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.up > p {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.up > i {
+  color: #8bc34a;
+  height: 2rem;
+}
+/* Best Selling Products */
+.products {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.products > h2 {
+  font-size: 4rem;
+}
+.products > img {
+  width: 9rem;
+  padding-bottom: 5rem;
+}
+
+.productts {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 30rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.product > h5 {
+  font-size: 2rem;
+}
+
+/* vegitables */
+
+.vegitables {
+  width: 100%;
+  height: 120vh;
+  background-color: #f8f6f3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  gap: 3rem;
+}
+
+.vegitables > img {
+  width: 15rem;
+  position: absolute;
+  top: -5%;
+}
+
+.vegitable {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.vegitable > img {
+  width: 35rem;
+  height: 38rem;
+  border-radius: 0.5rem;
+}
+.upper {
+  position: absolute;
+  top: 3.5rem;
+  left: 3.5rem;
+  right: 3.5rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.upper > h5 {
+  font-weight: 600;
+  font-size: 3rem;
 }
